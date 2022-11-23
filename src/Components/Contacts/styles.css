@@ -1,0 +1,121 @@
+
+/*:root {*/
+/*    color: #565656;*/
+/*    font-family: "Fugaz One", sans-serif;*/
+/*    font-size: 14px;*/
+/*    line-height: 1.7;*/
+/*}*/
+
+/*body {*/
+/*    background-color: #eaeaea;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+.wrapper {
+    background-color: #1E1E1E;
+    width: 700px;
+    padding: 2rem;
+    box-shadow: 0 1.5rem 1rem -1rem rgb(1, 191, 113);
+    border-radius: 0.3rem;
+}
+
+.input {
+
+    width: 250px;
+    height: 45px;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: MontserratThin,sans-serif;
+
+    border-radius: 50px;
+    /*border: 2px solid rgb(1, 191, 113);*/
+    /*color: rgb(1, 191, 113);*/
+    -webkit-appearance: none;
+}
+
+.button {
+    -webkit-appearance: none;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(1, 191, 113) rgb(1, 191, 113) rgb(1, 191, 113);
+    border-image: initial;
+    justify-content: flex-end;
+    margin-top: 10%;
+    /*font-family: Imported, serif;*/
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: rgba(1,191,113,0);
+    font-family: Montserrat, serif;
+    font-size: 16px;
+
+    color: rgb(1, 191, 113);
+/*    background: ${({primary}) => (primary ? 'rgba(1,191,113,0)' : '#1E1E1E')};*/
+/*padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};*/
+/*color: ${({dark}) => (dark ? '#1E1E1E' : '#FBEAF1')};*/
+/*font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};*/
+/*outline: 2px;*/
+/*cursor: pointer;*/
+/*display: flex;*/
+/*font-family: Imported, sans-serif;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*transition: all 0.2s ease-in-out;*/
+}
+.button:hover {
+    transition: all 0.2s ease-in-out;
+    background: #FFFFFF;
+    color: #1E1E1E;
+
+}
+
+
+
+.input:focus {
+    border-color: rgb(1, 191, 113);
+    outline: none;
+}
+
+.input.has-error {
+    border-color: tomato;
+}
+
+.error {
+    margin: 0;
+    font-size: 90%;
+    color: tomato;
+}
+
+.tag-item {
+    background-color: #d4d5d6;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 30px;
+    height: 30px;
+    padding: 0 4px 0 1rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+.tag-item > .button {
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    margin-left: 10px;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+@font-face{
+    font-family: Imported;
+    src: url("./fonts/FugazOne-Regular.ttf");
+}
+
+@font-face{
+    font-family: LatoRegular;
+    src: url("./fonts/Lato-Regular.ttf");
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("./fonts/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: MontserratThin;
+    src: url("./fonts/Montserrat-Thin.ttf");
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
